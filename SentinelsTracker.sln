@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelsTracker", "SentinelsTracker\SentinelsTracker.csproj", "{6B124E43-2264-4F55-9A7F-A6C8296B9F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelsAutoTracker", "SentinelsAutoTracker\SentinelsAutoTracker.csproj", "{55397D32-124D-42F0-A032-43847FBC7519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelsAutoTrackerBrowser", "SentinelsAutoTrackerBrowser\SentinelsAutoTrackerBrowser.csproj", "{0E9036CB-C43D-43EA-8C7E-09FCACFB8F13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelsAutoTrackerTests", "SentinelsAutoTrackerTests\SentinelsAutoTrackerTests.csproj", "{A04BC0B2-DB2B-464A-BCC9-C2BC3514007B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelsAutoTrackerEngine", "SentinelsAutoTrackerEngine\SentinelsAutoTrackerEngine.csproj", "{43BD0309-E7E6-4628-AF1A-1F0D9F6980D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SentinelsAutoTrackerWPFFrontend", "SentinelsAutoTrackerWPFFrontend\SentinelsAutoTrackerWPFFrontend.csproj", "{09BF9CAA-8212-4DA8-B4D4-C62661D47A4E}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SentinelsTrackerSetup", "SentinelsTrackerSetup\SentinelsTrackerSetup.vdproj", "{E8B705EC-636B-4571-9118-28096A8856B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B124E43-2264-4F55-9A7F-A6C8296B9F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B124E43-2264-4F55-9A7F-A6C8296B9F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B124E43-2264-4F55-9A7F-A6C8296B9F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B124E43-2264-4F55-9A7F-A6C8296B9F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55397D32-124D-42F0-A032-43847FBC7519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55397D32-124D-42F0-A032-43847FBC7519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55397D32-124D-42F0-A032-43847FBC7519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55397D32-124D-42F0-A032-43847FBC7519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E9036CB-C43D-43EA-8C7E-09FCACFB8F13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E9036CB-C43D-43EA-8C7E-09FCACFB8F13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E9036CB-C43D-43EA-8C7E-09FCACFB8F13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E9036CB-C43D-43EA-8C7E-09FCACFB8F13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A04BC0B2-DB2B-464A-BCC9-C2BC3514007B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A04BC0B2-DB2B-464A-BCC9-C2BC3514007B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A04BC0B2-DB2B-464A-BCC9-C2BC3514007B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A04BC0B2-DB2B-464A-BCC9-C2BC3514007B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43BD0309-E7E6-4628-AF1A-1F0D9F6980D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43BD0309-E7E6-4628-AF1A-1F0D9F6980D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43BD0309-E7E6-4628-AF1A-1F0D9F6980D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43BD0309-E7E6-4628-AF1A-1F0D9F6980D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09BF9CAA-8212-4DA8-B4D4-C62661D47A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09BF9CAA-8212-4DA8-B4D4-C62661D47A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09BF9CAA-8212-4DA8-B4D4-C62661D47A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09BF9CAA-8212-4DA8-B4D4-C62661D47A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B705EC-636B-4571-9118-28096A8856B9}.Debug|Any CPU.ActiveCfg = Debug
+		{E8B705EC-636B-4571-9118-28096A8856B9}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5946887-8DB2-4890-8430-062E85348C92}
+	EndGlobalSection
+EndGlobal

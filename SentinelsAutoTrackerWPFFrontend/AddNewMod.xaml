@@ -1,0 +1,46 @@
+﻿<Window x:Class="SentinelsAutoTrackerWPFFrontend.AddNewMod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SentinelsAutoTrackerWPFFrontend"
+        mc:Ignorable="d"
+        Title="AddNewMod" Height="300" Width="400">
+    <Grid Margin="15,0,15,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.Row="0" Grid.Column="0">Name:</TextBlock>
+        <TextBox Grid.Row="0" Grid.Column="1" Name="tbNameField" HorizontalContentAlignment="Stretch" Width="200" Margin="14,0,0,0"/>
+        <TextBlock VerticalAlignment="Center" Grid.Row="1" Grid.Column="0">Mod Type:</TextBlock>
+        <ComboBox Name="cbModTypes" Width="200" Grid.Row="1" Grid.Column="1" Margin="10,10,0,10" />
+        <TextBlock Grid.Row="2" Grid.Column="0">Amount:</TextBlock>
+        <TextBox Grid.Row="2" Grid.Column="1" Name="tbAmountField" HorizontalContentAlignment="Stretch" Width="200" Margin="14,0,0,0"/>
+        <TextBlock Grid.Row="3" Grid.Column="0">Damage Type:</TextBlock>
+        <ComboBox Grid.Row="3" Grid.Column="1" Name="cbDamageTypeList" Width="200" Margin="10,10,0,10" />
+        <TextBlock Grid.Row="4" Grid.Column="0">Description:</TextBlock>
+        <TextBox Grid.Row="4" Grid.Column="1" Name="tbDescriptionField" Width="200" Margin="14,0,5,10"/>
+        <TextBlock Grid.Row="5" Grid.Column="0">One Time Only?:</TextBlock>
+        <ComboBox Grid.Row="5" Grid.Column="1" Name="cbOneTime" Width="200" Margin="10,10,0,10">
+            <ComboBoxItem Content="True"/>
+            <ComboBoxItem IsSelected="True" Content="False"/>
+        </ComboBox>
+        <TextBlock Grid.Row="6" Grid.Column="0">Apply to:</TextBlock>
+
+        <ComboBox Grid.Row="6" Grid.Column="1" Name="cbApplyChoices" Width="200" Margin="10,10,0,10"/>
+
+        <Button Click="Submit_ButtonClick" Grid.Row="7" Width="100" Margin="10,0,0,0">Submit</Button>
+        <TextBlock Grid.Row="7" Grid.Column="1" Name="tb_SubmitErrorMessage" Foreground="Red"/>
+    </Grid>
+</Window>

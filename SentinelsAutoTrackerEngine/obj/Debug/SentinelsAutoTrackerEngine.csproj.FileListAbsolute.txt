@@ -1,0 +1,8 @@
+C:\EpicSource\SentinelsTracker\SentinelsAutoTrackerEngine\bin\Debug\SentinelsAutoTrackerEngine.dll
+C:\EpicSource\SentinelsTracker\SentinelsAutoTrackerEngine\bin\Debug\SentinelsAutoTrackerEngine.pdb
+C:\EpicSource\SentinelsTracker\SentinelsAutoTrackerEngine\obj\Debug\SentinelsAutoTrackerEngine.Properties.Resources.resources
+C:\EpicSource\SentinelsTracker\SentinelsAutoTrackerEngine\obj\Debug\SentinelsAutoTrackerEngine.csproj.GenerateResource.cache
+C:\EpicSource\SentinelsTracker\SentinelsAutoTrackerEngine\obj\Debug\SentinelsAutoTrackerEngine.csproj.CoreCompileInputs.cache
+C:\EpicSource\SentinelsTracker\SentinelsAutoTrackerEngine\obj\Debug\SentinelsAutoTrackerEngine.dll
+C:\EpicSource\SentinelsTracker\SentinelsAutoTrackerEngine\obj\Debug\SentinelsAutoTrackerEngine.pdb
+C:\EpicSource\SentinelsTracker\SentinelsAutoTrackerEngine\obj\Debug\SentinelsAutoTrackerEngine.csprojAssemblyReference.cache
